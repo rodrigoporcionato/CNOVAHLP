@@ -53,7 +53,7 @@ namespace CNOVAHLP
             {
                 case Sites.extra:
                     return new List<Hosts> {
-                        new Hosts() {  HostName="www.extra.com.br", IP="9.9.9.1"},
+                        new Hosts() {  HostName="www.extra.com.br", IP="127.0.0.1"},
                         new Hosts() {  HostName="carrinho.extra.com.br", IP="127.0.0.1"}
                     };                    
                 case Sites.pontofrio:
